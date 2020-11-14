@@ -1,7 +1,7 @@
 # java-3
 
 ## 2020322098  石帅斌  
-## 1.实验要求
+## 1.实验目的
 掌握Java中接口的定义，熟练掌握接口的定义形式以及接口的实现方法
 了解异常的使用方法，并在程序中根据输入情况做异常处理
 
@@ -17,40 +17,20 @@
 ## 3. 实验设计
 
  1.设置Colleagestudent和 Teacher 接口中的方法
- 2.
+ 2.设置教师接口查询薪水的方法，学生接口查缴学费的方法。
 
  ## 4. 核心方法
  
  1. Doctoral类实现接口中的博士生的缴费功能和获取缴费成功的信息的方法。
   
   ```
-         public void payment() {
+  public void payment() {
   Doctoral Doctoral1 = new Doctoral();
   SchoolFinance  scw=new SchoolFinance();
   String str="请输入你要交的学费";
   scw.setMoney(10000);
-  while(true) {
-   System.out.println(str);
-   Scanner sc=new Scanner(System.in);
-   int id1;
-   int b=scw.getMoney();
-     try {
-      id1=sc.nextInt();
-      if(id1==b) {
-       System.out.println("你的学费支付了："+id1+"元,支付成功");
-           break;
-      }else {
-        System.out.println("你输入的有误");
-        
-      }
-       
-  } catch (Exception e) {
-   str="您输入有误,请输入一个整数:";
-   continue;
-  }  
-     }
   
- }
+ 
  public void checkmany() {
   try {
    sv.setMoney(10000);
@@ -59,12 +39,7 @@
    System.out.println("你输入的不正确");
   }
   
-  System.out.println("您查询的学费为"+d);
- }
- public void paysalary() {
-  System.out.println("每个月发放的薪水为："+doctoral);
- }
-  
+ 
   ```
   2. 调用博士类并且通过Scanner类进行输出姓名，性别，年龄，和缴费中的方法。
       ```
@@ -82,9 +57,10 @@
        ```
    
   ## 5.实验截图
-  https://github.com/shishuaibin123/java-3/commit/3dcb752e4f12ec808f9300c36bed4348aef1edea
+ 实验截图跟代码放一起了。
   ## 6.实验感想
 
   1. 通过这个实验学习到了如何通过实现接口中的方法，实现博士生所具有的方法。
-  2. 学会了如何通过while循环语句循环出现异常时，程序依然可以进行运行。
+  2. 了解异常的使用方法，并在程序中根据输入情况做异常处理
+   3.在编写程序方面仍然需要提升能力，使得程序更加完善。
   
