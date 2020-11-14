@@ -82,7 +82,7 @@
        ```
    
   ## 5.实验截图
-  
+  https://github.com/shishuaibin123/java-3/commit/3dcb752e4f12ec808f9300c36bed4348aef1edea
   ## 6.实验感想
 
   1. 通过这个实验学习到了如何通过实现接口中的方法，实现博士生所具有的方法。
