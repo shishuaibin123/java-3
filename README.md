@@ -57,7 +57,7 @@
        ```
    
   ## 5.实验截图
- 实验截图跟代码放一起了。
+ https://github.com/shishuaibin123/java-3/blob/main/%E5%AE%9E%E9%AA%8C%E6%88%AA%E5%9B%BE/38a5b84a24014a694c36d4f9354644f.jpg
   ## 6.实验感想
 
   1. 通过这个实验学习到了如何通过实现接口中的方法，实现博士生所具有的方法。
